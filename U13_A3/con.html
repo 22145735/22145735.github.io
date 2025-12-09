@@ -16,7 +16,7 @@
 				overflow: auto;
 			}
 			h1 {
-				color: #44763E;	
+				color: #44763E;
 			}
 			p {
 				color: #161716;
@@ -52,7 +52,16 @@
 			}
 			
 			.fg {
-				margin-bottom: 10px;
+				width: 190px;
+				height: 100px;
+				border: 2px solid #d4d28a;
+				box-sizing: border-box;
+				display: block;
+				font-size: 15px;
+				resize: none;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: 30px;
 			}
 			
 			.pl {
@@ -61,6 +70,11 @@
 			
 			li {
 				font-size: 20px;
+			}
+			
+			h2 {
+				text-align:center;
+				text-decoration: underline;
 			}
 		</style>
 	</head>
@@ -81,10 +95,12 @@
 	
 		<h1>Contact us</h1>
 	
-	<h2>Form</h2>
+	<div class="pl">
+			<h3 align="center">If you want support but you dont have time to email, call or visit, please fill out this form and I will get in touch with you very soon.</h3>
+	</div>
 		<form action="mailto:22145735@cambria.ac.uk" method="post" enctype="text/plain">
 			<div class="fg">
-				<label for="name">First name:</label>
+				<label for="name">Name:</label>
 				<input type="text" id="name" name="usrname" required>
 			</div>
 			<div class="fg">
@@ -99,19 +115,15 @@
 			<button type="submit">Send</button>
 			</div>
 		</form>
-	
-		<div class="pl">
-			<h3 align="center">If you want support but you dont have time to email, call or visit, please fill out the form on the left.</h3>
-		</div>
-		
-	<ul style="float: right;">
+
+	<h3 align="center">But if you have time, you can call me, visit me or email me. Im always here to help. So here are my contact details:</h3>
+
+	<ul style="margin-right: inherit;">
 		<li>Name: Zilvinas Macianskas</li>
 		<li>Email: zm@a.com</li>
 		<li>Phone Number: 416295</li>
 		<li>Location: Argoed High School, Bryn-y-baal, Mold, CH76RY</li>
 	</ul>
-	
-	<h3 align="center">But if you have time, you can call me, visit me or email me. Im always here to help</h3>
 	
 		<p align="center">
 			<a href="index.htm">Home</a>
